@@ -19,8 +19,6 @@ public class JenkinstestApplication {
 	
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinstestApplication.class, args);
-		logger.info("Application executed...........");
-		System.out.println("hello jenkins");
 	}
 
 }
