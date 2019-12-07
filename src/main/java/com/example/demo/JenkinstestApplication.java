@@ -11,9 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JenkinstestApplication {
 
-	// Logger logger = (Logger) LogFactory.getLog(JenkinstestApplication.class);
+	private static Logger logger = (Logger) LogFactory.getLog(JenkinstestApplication.class);
 	
-	private static Logger logger = LoggerFactory.getLogger(JenkinstestApplication.class);
+	// private static Logger logger = LoggerFactory.getLogger(JenkinstestApplication.class);
 	
 	@PostConstruct
 	public void init() {
