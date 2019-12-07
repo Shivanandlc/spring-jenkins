@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import javax.annotation.PostConstruct;
+
 import org.apache.commons.logging.LogFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +15,7 @@ public class JenkinstestApplication {
 	
 	private static Logger logger = LoggerFactory.getLogger(JenkinstestApplication.class);
 	
+	@PostConstruct
 	public void init() {
 		logger.info("Application started........");
 	}
