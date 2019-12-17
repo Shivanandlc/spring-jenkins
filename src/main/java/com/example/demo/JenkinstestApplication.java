@@ -15,7 +15,7 @@ public class JenkinstestApplication {
 	@PostConstruct
 	public void init() {
 		logger.info("Application started........");
-		//logger.info("Application executed........");
+		logger.info("JenkinstestApplication executing........");
 	}
 	
 	public static void main(String[] args) {
