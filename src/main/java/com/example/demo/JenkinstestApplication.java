@@ -12,7 +12,7 @@ public class JenkinstestApplication {
 	
 	private static Logger logger = LoggerFactory.getLogger(JenkinstestApplication.class);
 	
-	@PostConstruct
+
 	public void init() {
 		logger.info("Application started........");
 		//logger.info("JenkinstestApplication executing in @PostConstruct.......");
