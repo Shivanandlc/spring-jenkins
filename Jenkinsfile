@@ -6,7 +6,7 @@ pipeline {
     }
     environment {
         registry = "shivalc/docker-test"
-        registryCredential = 'dockerhub'
+        registryCredential = "dockerhub"
         dockerImage = ''
       }
     stages {
