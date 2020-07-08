@@ -76,6 +76,6 @@
 		</plugins>
 		<finalName>JenkinsPipeline</finalName>
 	</build>
-	<packaging>war</packaging>
+<!--	<packaging>war</packaging>-->
 
 </project>
