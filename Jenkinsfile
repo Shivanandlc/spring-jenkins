@@ -10,12 +10,12 @@ pipeline {
                 git credentialsId: 'git_credentials', url: 'https://github.com/Shivanandlc/spring-jenkins.git'
             }
         }
-        stage("Build Stage") {
+        stage("Build Code") {
             steps {
                 bat "mvn clean compile"
             }
         }
-        stage("Test Stage") {
+        stage("Test Code") {
             steps {
                 bat "mvn package"
             }
