@@ -40,16 +40,16 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat</groupId>
-			<artifactId>tomcat-catalina</artifactId>
-			<version>8.5.57</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.tomcat.maven</groupId>
-			<artifactId>common-tomcat-maven-plugin</artifactId>
-			<version>2.0</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.apache.tomcat</groupId>-->
+<!--			<artifactId>tomcat-catalina</artifactId>-->
+<!--			<version>8.5.57</version>-->
+<!--		</dependency>-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.tomcat.maven</groupId>-->
+<!--			<artifactId>common-tomcat-maven-plugin</artifactId>-->
+<!--			<version>2.0</version>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
@@ -63,16 +63,16 @@
 				<artifactId>maven-deploy-plugin</artifactId>
 				<version>2.8.2</version>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat-maven-plugin-it</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<server>maven-tomcat-war-deployment-server</server>
-					<url>http://localhost:9090/</url>
-					<path>/rps</path>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.tomcat.maven</groupId>-->
+<!--				<artifactId>tomcat-maven-plugin-it</artifactId>-->
+<!--				<version>2.2</version>-->
+<!--				<configuration>-->
+<!--					<server>maven-tomcat-war-deployment-server</server>-->
+<!--					<url>http://localhost:9090/</url>-->
+<!--					<path>/rps</path>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 		<finalName>JenkinsPipeline</finalName>
 	</build>
