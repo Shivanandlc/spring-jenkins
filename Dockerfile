@@ -1,6 +1,6 @@
 FROM openjdk:8
 #ADD target/spring-kube.jar spring-kube.jar
-#EXPOSE 9091
+EXPOSE 8080
 VOLUME /tmp
 ARG JAR_FILE
 ADD target/jenkinsPipeline.jar jenkinsPipeline.jar

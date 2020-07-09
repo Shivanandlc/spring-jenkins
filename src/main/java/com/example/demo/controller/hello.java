@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class hello {
     @GetMapping("/")
     public String hello(){
-        return "Hello Jenkins pipeline!!!";
+        return "A demo of Jenkins pipeline!!";
     }
 }
